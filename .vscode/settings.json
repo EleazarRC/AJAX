@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "escalabilidad",
+        "indentación"
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": false
+
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~../../www/css/"
+        }
+    ]
+
+   
+
+
+}
