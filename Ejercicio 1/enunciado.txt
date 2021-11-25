@@ -1,0 +1,1 @@
+Realizar un ejercicio similar al ejemplo guía para mostrar los datos de un fichero de texto.
