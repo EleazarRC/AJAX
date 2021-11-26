@@ -1,28 +1,17 @@
-
 var contador = 0;
 const cambioDeImagenesAJAX = () => {
-  
-
-  
-
-  if(contador == 0){
-
+  if (contador == 0) {
     muestraImagen1();
 
-  contador = contador + 1;
+    contador = contador + 1;
   } else {
-    
-    
     muestraImagen2();
 
-  contador = contador - 1;
+    contador = contador - 1;
   }
+};
 
-
-
-}
-
-
+// Pagina web para pasar imagenes a base64 https://www.base64-image.de/
 const muestraImagen1 = () => {
   tiempoInicial = new Date();
   borrarPagina();
@@ -51,22 +40,7 @@ const muestraImagen2 = () => {
   );
 };
 
-
 //muestraImagen1();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // EJEMPLO
 /*const muestraDatos = () => {
